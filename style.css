@@ -1,0 +1,295 @@
+body{
+    background-color : rgba(11, 10, 10, 0.993);
+}
+
+.sidebar-1 {
+    height : 15vh;
+    width : 5vw;
+    background-color : rgb(49, 48, 48);
+    color : azure;
+    font-size : 2.8vw;
+
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
+    align-items : center;
+
+    border-radius : 6px;
+    margin : 2vh;
+
+    position : absolute;
+    left : 0px;
+    top : 0px;
+}
+
+.sidebar-1>div {
+    padding : 1px;
+}
+
+.sidebar-2 {
+    height : 80vh;
+    width : 5vw;
+    background-color : rgb(49, 48, 48);
+    color : azure;
+    font-size : 2.8vw;
+
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
+    align-items : center;
+
+    border-radius : 6px;
+    margin : 2vh;
+
+    position : absolute;
+    left : 0px;
+    bottom : 0px;
+}
+
+.movies {
+    width : 80%;
+    height : 10%;
+    background-color : white;
+    border-radius : 50%;
+    background-size: cover;
+    background-position :center;
+}
+
+#rs {
+    background-image: url(radheshyam.jpg);
+}
+
+#leo {
+    background-image: url(leo.jpg);
+}
+
+#tp {
+    background-image: url(tholiprema.jpeg);
+}
+
+#doc{
+    background-image : url(doctor.jpg);
+}
+
+#pp{
+   background-image: url(pushpa.jpeg);
+}
+
+.main_{
+    height : 96vh;
+    width : 90vw;
+    background-color : yellow;
+    font-size: 2vw;
+
+    border-radius : 8px;
+    margin : 2vh;
+
+    position : absolute;
+    left : 7vw;
+    top : 0px;
+
+    background : linear-gradient(180deg,rgba(22, 49, 84, 0.453),rgba(10, 10, 10, 0.917));
+
+    overflow: auto;
+}
+
+
+.top_bar {
+    background-color: rgb(19, 19, 23);
+    height : 10%;
+    position : sticky;
+    left : 0px;
+    top : 0px;
+
+    border-radius: 8px;
+
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+
+    z-index : 5;
+}
+
+#left_top {
+    height : 7%;
+    width : 15vw;
+    margin : 0.5vw;
+    margin-left : 2vw;
+}
+
+#left_top>span{
+  color : azure;
+  padding : 0.3vw;
+}
+
+.material-symbols-outlined:hover{
+    background-color: rgba(40, 46, 57, 0.894);
+    cursor: pointer;
+    font-size : 2vw;
+    border-radius: 50%;
+}
+
+
+#right_top {
+    color : azure;
+    height : 7%;
+    margin : 0.5vw;
+    text-align: center;
+}
+
+#right_top>span {
+    padding : 0.3vw;
+    text-align : center;
+    margin : 0.5vw;
+}
+
+#right_top>#explore {
+    background-color: white;
+    color : black;
+    font-size : 1.2vw;
+    font-weight : bold;
+    border-radius : 20px;
+}
+
+#right_top>#explore:hover{
+    height : 8%;
+    width : 34vw;
+    font-size : 1.4vw;
+    cursor: pointer;
+}
+
+#account{
+    background-color:  rgb(249, 90, 116);
+    border-radius: 70%;
+}
+
+.middle_ {
+    height : 30vh;
+    margin : 1vw;
+
+    display : flex;
+    flex-direction : row;
+    justify-content: space-evenly;
+    align-items : center;
+
+    background : linear-gradient( 3deg , rgba(0, 0, 0, 0.826) , rgba(22, 49, 84, 0.453) );
+
+    border-radius: 10px;
+}
+
+
+#img {
+    height : 25vh;
+    width : 25vh;
+    background-image : url(tholiprema.jpeg);
+    background-size: cover;
+    background-position :center;
+    border-radius: 10px;
+    margin : 1vw;
+}
+
+#desc {
+    margin : 1vw;
+    color : azure;
+}
+
+#desc-1 {
+    font-size: 3vw;
+    font-weight: bolder;
+    margin : 1vw;
+}
+
+#desc-2 {
+    font-size : 1.5vw;
+    margin : 1vw;
+}
+
+#ops{
+    display: flex;
+    flex-direction: row;
+    margin: 1vw;
+}
+
+#ops>div{
+    width : 15vw;
+    margin: 1vw;
+}
+
+#ops-1 {
+   width : 5vw;
+   color : rgba(2, 10, 31, 0.365);
+   border-radius : 20px;
+   text-align: center;
+}
+
+#ops-2 {
+    border: 1px solid azure;
+    width : 5vw;
+    color : azure;
+    border-radius : 20px;
+    text-align: center;
+    padding : 1vw;
+}
+
+.tit_bottom {
+    color : azure;
+    margin : 1vw;
+    font-weight : bolder;
+}
+
+.lists_{
+    height : 85vh;
+    width : 100%;
+}
+
+.cards_sec {
+    height : 46%;
+
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    align-items : center;
+
+    flex-wrap : wrap;
+}
+
+.card_ {
+    background-color : rgba(0, 0, 0, 0.826);
+    color : azure;
+    font-family: Arial, Helvetica, sans-serif;
+    height : 100%;
+    width : 25%;
+
+    border-radius: 8px;
+    margin : 1vw;
+
+    display : flex;
+    flex-direction : column;
+    justify-content : space-evenly;
+    align-items : center;
+}
+
+.c_detail_1 {
+    text-align: center;
+    font-size : 1.2vw;
+}
+
+.c_detail_2{
+    text-align : center;
+    font-size: 0.8vw;
+}
+
+.c_img {
+    height : 60%;
+    width : 60%;
+    /* background-image: url(singharoy.jpg); */
+    background-size: cover;
+    border-radius: 10px;
+    background-position :center;
+}
+
+audio {
+    width : 90%;
+    color: azure;
+    background-color: rgba(10, 10, 10, 0.917);
+}
